@@ -1,3 +1,3 @@
-# +moredevstoblu
+# +devstoblu
 
 ##Readme in progress
