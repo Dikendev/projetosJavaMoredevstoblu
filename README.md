@@ -12,3 +12,6 @@
 ## Itens abordados no projeto:
 
 01. Introdução ao GitHub e Git.
+  - Comand line interface, CLI.
+  - Commits, branchs, forks e merge
+  - Tags
