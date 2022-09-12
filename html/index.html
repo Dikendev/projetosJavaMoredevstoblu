@@ -74,16 +74,19 @@
             autocomplete: nao sugerir os dados ja digitados (ON | OFF)
 
         -->
-        <label for="name"> Nome Completo</label>
-        <input type="text" name="name" id="name" placeholder="Seu nome completo" autofocus minlength="3" required> 
-        <br>
+        <fieldset>
+            <legend>DADOS PESSOAIS</legend>
+                <label for="name"> Nome Completo</label>
+                <input type="text" name="name" id="name" placeholder="Seu nome completo" autofocus minlength="3" required> 
+                <br>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+                <br>
+                <label for="senha">Senha</label>
+                <input type="password" name="password">
+                <br>
+        </fieldset>
 
-        <label for="email">Email</label>
-        <input type="text" name="email" id="email">
-        <br>
-        <label for="senha">Senha</label>
-        <input type="password" name="password">
-        <br>
 
         <label for="cor">Cor Preferida</label>
         <input type="checkbox" name="azul" value="azul"> azul
@@ -129,8 +132,8 @@
         <input type="datetime-local" name="dataehora">
         <br>
         
-        <textarea name="" cols="30" rows="10" placeholder="Skills">
-        </textarea>
+        <label for="valor">Valor</label>
+        <input type="range" name="valor">
         <br>
 
         <input type="submit" name="enviar" multiple>
