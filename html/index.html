@@ -64,17 +64,79 @@
     </table>
 
     <h2>Formularios</h2>
-    <form action="#" method="post">
+    <form action="index.html" method="post">
+
+        <!-- 
+            readonly nao permite alteração de valor e envia na request;
+            disabled: nao permite alteracaode valor e nao envia na request
+            class: seletor
+            id: seletor que nao pode se repetir
+            autocomplete: nao sugerir os dados ja digitados (ON | OFF)
+
+        -->
         <label for="name"> Nome Completo</label>
-        <input type="text" name="name" id="name">
+        <input type="text" name="name" id="name" placeholder="Seu nome completo" autofocus minlength="3" required> 
         <br>
+
         <label for="email">Email</label>
         <input type="text" name="email" id="email">
         <br>
-        <input type="submit" name="enviar" id="">
+        <label for="senha">Senha</label>
+        <input type="password" name="password">
+        <br>
 
+        <label for="cor">Cor Preferida</label>
+        <input type="checkbox" name="azul" value="azul"> azul
+        <input type="checkbox" name="vermelho"> vemelho
+        <input type="checkbox" name="verde"> verde
+        <br>
+
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="sexo"> Masc
+        <input type="radio" name="sexo"> Fem
+        <br>
+           
+        <label for="number">Número</label>
+        <input type="number" name="number" placeholder="Preencha apenas números">
+        <br>
+
+        <label for="arquivo">Envie seu arquivo</label>
+        <input type="file" name="arquivo">
+        <br>
+
+        <label for="color">Cores</label>
+        <input type="color" name="color">
+        <br>
+
+        <!-- obrigado um required: e uma option vazia-->
+        <select name="estados" required>
+            <option value="">Selecione</option>
+            <option value="sc">Santa Catarina</option>
+            <option value="Rj">Rio de Janeiro</option>
+            <option value="Rs">Rio Grande do Sul</option>
+        </select>
+        <br>
+
+        <label for="data">Data</label>
+        <input type="date" name="data">
+        <br>
+
+        <label for="time">Time</label>
+        <input type="time" name="Time">
+        <br>
+
+        <label for="dataehora">Data e Hora</label>
+        <input type="datetime-local" name="dataehora">
+        <br>
+        
+        <textarea name="" cols="30" rows="10" placeholder="Skills">
+        </textarea>
+        <br>
+
+        <input type="submit" name="enviar" multiple>
+        <button type="submit">Enviar</button>
     </form>
-    <script src="script/app.js"></script>
 
+    <script src="script/app.js"></script>
 </body>
 </html>
