@@ -12,7 +12,7 @@
         <fieldset>
             <legend>DADOS PESSOAIS</legend>
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" placeholder="Seu nome completo">
+                <input type="text" name="nome" placeholder="Seu nome completo" autofocus required>
                 <br> <br>
                 
                 <label for="cpf">CPF</label>
@@ -31,17 +31,16 @@
         
         <Fieldset>
             <legend>DADOS DE CONTATO</legend>
-                <label for="telefone">Número Telefone</label>
-                <input type="number" name="telefone" placeholder="Numero celular">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" placeholder="Numero celular">
                 
 
-                <label for="celular">Número Celular</label>
-                <input type="number" name="cpf" placeholder="apenas numeros">
-                <br>
+                <label for="celular">Celular</label>
+                <input type="tel" name="cpf" placeholder="apenas numeros">
+                <br> <br>
 
                 <label for="email">Email</label>
                 <input type="email" name="email" placeholder="Seu melhor endereço de email" style="width:200px;">
-                <br>
 
                 <label for="linkedln">linkedln</label>
                 <input type="text" name="linkedln" placeholder="@nomeusuario">
@@ -54,31 +53,119 @@
 
         <Fieldset>
             <legend>DADOS DE ENDEREÇO</legend>
-            
+                <label label for="logradouro">Logradouro</label>
+                <input type="text" name="logradouro" placeholder="Endereço da sua residência">
+
+                <label label for="numero">Número</label>
+                <input type="number" name="numero">
+                <br> <br>
+
+                <label label for="complemento">Complemento</label>
+                <input type="text" name="complemento">
+
+                
+                <label label for="bairro">Bairro</label>
+                <input type="text" name="bairro">
+
+                <label for="cidade">Cidade</label>
+                <select name="cidade" required>
+                    <option value="">Selecione</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="Rs">Rio Grande do Sul</option>
+                </select>
+
+                <label for="estado">Estado</label>
+                <select name="cidade" required>
+                    <option value="">Selecione</option>
+                    <option value="BNU">Blumenau</option>
+                    <option value="JRS">Jaraguá do Sul</option>
+                    <option value="MA">Manaus</option>
+                </select>
         </Fieldset>
         <br>
 
         <Fieldset>
             <legend>EXPERIÊNCIAS PROFISSIONAIS</legend>
+                
+                <label label for="empresa">Empresa</label>
+                <input type="text" name="empresa">
 
+                <label label for="telefone_prof">Telefone</label>
+                <input type="tel" name="telefone_prof">
+
+                <label label for="cidade">Cidade</label>
+                <input type="text" name="cidade">
+                
+                <label label for="estado_prof">Estado</label>
+                <input type="text" name="estado_prof">
+
+                <label label for="admissao">Inicio</label>
+                <input type="date" name="admissao">
+
+                <label label for="termino">Termino</label>
+                <input type="date" name="termino">
+
+                <label label for="salario">Salário</label>
+                <input type="number" name="salario">
+
+                <!-- adicionar um botao -->
         </Fieldset>
         <br>
 
         <Fieldset>
             <legend>CURSOS</legend>
+                <label label for="curso">Curso</label>
+                <input type="text" name="curso">
 
+                <label label for="instituicao">Institução</label>
+                <input type="text" name="instituicao">
+
+                <label label for="data_inicial">Data inicial</label>
+                <input type="date" name="data_inicial">
+
+                <label label for="data_final">Data final</label>
+                <input type="date" name="data_final">
+
+                <label for="certificado">Certificado</label>
+                <input type="file" name="certificado">
         </Fieldset>
         <br>
 
         <Fieldset>
             <legend>FORMAÇÃO</legend>
+                <label label for="curso">Curso</label>
+                <input type="text" name="curso">
+
+                <label label for="instituicao">Institução</label>
+                <input type="text" name="instituicao">
+
+                <label for="situacao">Situação</label>
+                <select name="situacao" required>
+                    <option value="">Selecione</option>
+                    <option value="cur">cursando</option>
+                    <option value="JRS">concluido</option>
+                    <option value="MA">Trancado</option>
+                </select>
+
+                <label label for="data_inicial">Data inicial</label>
+                <input type="date" name="data_inicial">
+
+                <label label for="data_final">Data final</label>
+                <input type="date" name="data_final">
+                <br> <br>
+
+                <label for="certificado_form">Certificado</label>
+                <input type="file" name="certificado_form">
 
         </Fieldset>
         <br>
 
         <Fieldset>
             <legend>OUTRAS INFORMAÇÕES</legend>
-
+            
+            <label for="outros">Outras Informações</label>
+            <textarea name="outros" cols="20" rows="1"></textarea>
         </Fieldset>
         <br>
     </form>
