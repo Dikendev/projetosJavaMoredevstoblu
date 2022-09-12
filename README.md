@@ -12,6 +12,12 @@
 ## Itens abordados no projeto:
 
 01. Introdução ao GitHub e Git.
-  - Comand line interface, CLI.
-  - Commits, branchs, forks e merge
-  - Tags
+  - Comand line interface, CLI;
+  - Commits, branchs, forks e merge;
+  - Tags / versions
+02. Html 5
+  - Block elements
+  - Inline elements
+  - Estrutura de documentos;
+  - Tags;
+    - ul, li, ol, form, input, button, text area, label; 
