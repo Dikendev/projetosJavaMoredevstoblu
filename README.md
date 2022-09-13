@@ -4,7 +4,7 @@
 # +devstoblu
 
 
-*Repositório onde estará todos os exercicios e assuntos que foi abordado no projeto @devstoblu com duração de 6 meses, iniciativa da prefeitura de blumenau com parceria da @blusoft.*
+*Repositório onde estará todos os exercicios e assuntos que foi abordado no projeto @devstoblu com duração de 6 meses, iniciativa da prefeitura de blumenau com parceria da @blusoft e realização da @proway e a FURB (Universidade Regional de Blumenau).*
 
 ### Currently studying By: Diego Kennedy @diken.developer
 
