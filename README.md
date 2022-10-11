@@ -27,4 +27,9 @@
     - a, em, strong, cite / q, time    
   - SEO (Search Engine Optmization)
   - Conventions and Best Practices
-   
+03. CSS (Cascading Style Sheets)   
+  - Floats
+  - Positioning
+  - Display
+  - Box Model
+  - Responsive design and Media Queries
