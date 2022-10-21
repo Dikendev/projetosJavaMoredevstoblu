@@ -41,5 +41,20 @@
   - Components (Breadcrumb, Dropdowns, Modal, Navbar, Navs & tabs, Offcanvas, Placeholders
 Popovers, Scrollspy, Spinners
   - Utilities (API, Display, Flex, Overflow, Position, Shadows, Sizing, Spacing, Text, Vertical align, Visibility
+05. JavaScript
+  - Data Types
+  - Booleans, Operators, Date
+  - Conditionals, Array, Loops
+  - DOM
+  - Manipulating DOM Object
+  - Objects
+  - Functions
+  - Higher Order Functions
+  - Sets and Maps
+  - Destructuring and Spreading
+  - Regular Expressions
+  - Console Object Method, Error Handling
+  - JSON, Promises, Promises, Closures
+  - Event Listeners
 
   
