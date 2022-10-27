@@ -56,5 +56,10 @@ Popovers, Scrollspy, Spinners
   - Console Object Method, Error Handling
   - JSON, Promises, Promises, Closures
   - Event Listeners
-
+06. Sql
+  - Basic Select Query, SELECT Statement, WHERE Clause
+  - Modifying Data, UPDATE Statement, DELETE Statement
+  - Working with Tables, Create Table, Alter Table, Drop Table, Data Types
+  - Database Design, Normalisation (First to Third), ERDs
+  
   
