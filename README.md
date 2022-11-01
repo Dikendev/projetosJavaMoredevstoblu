@@ -61,5 +61,13 @@ Popovers, Scrollspy, Spinners
   - Modifying Data, UPDATE Statement, DELETE Statement
   - Working with Tables, Create Table, Alter Table, Drop Table, Data Types
   - Database Design, Normalisation (First to Third), ERDs
+ 07. Java
+  - Basic syntax
+  - Data types, variables
+  - Conditionals
+  - Functions
+  - Data Structures
+  - OOP, Interfaces, Classes
+  - Packages
   
   
