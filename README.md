@@ -15,6 +15,9 @@
   - Comand line interface, CLI
   - Commits, branchs, forks e merge
   - Tags / versions
+  - Snapshots
+  - Git tags
+  - Git Flow
 02. Html 5
   - Block elements
   - Inline elements
