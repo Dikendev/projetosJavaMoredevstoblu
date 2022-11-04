@@ -59,10 +59,12 @@ Popovers, Scrollspy, Spinners
   - Console Object Method, Error Handling
   - JSON, Promises, Promises, Closures
   - Event Listeners
-06. Sql
+06. Banco de Dados Relacional com MySQL
+  - Modelagem de banco de dados
   - Basic Select Query, SELECT Statement, WHERE Clause
   - Modifying Data, UPDATE Statement, DELETE Statement
   - Working with Tables, Create Table, Alter Table, Drop Table, Data Types
+  - Otimização de Queries
   - Database Design, Normalisation (First to Third), ERDs
  07. Java
   - Basic syntax
@@ -72,5 +74,6 @@ Popovers, Scrollspy, Spinners
   - Data Structures
   - OOP, Interfaces, Classes
   - Packages
+  - Debugger
   
   
