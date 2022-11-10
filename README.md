@@ -77,4 +77,8 @@ Popovers, Scrollspy, Spinners
   - Debugger
   - Herança
   - Poo
+  - Princípios SOLID
+  - Polimorfismo
+  - Abstração
+  - Encapsulamento
   
