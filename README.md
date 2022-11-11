@@ -52,6 +52,8 @@ Popovers, Scrollspy, Spinners
   - Manipulating DOM Object
   - Objects
   - Functions
+  - Arrow Function 
+  - IIFE 
   - Higher Order Functions
   - Sets and Maps
   - Destructuring and Spreading
@@ -59,6 +61,9 @@ Popovers, Scrollspy, Spinners
   - Console Object Method, Error Handling
   - JSON, Promises, Promises, Closures
   - Event Listeners
+  - Async / Await 
+  - LocalStorage, SessionStorage e Cookies 
+
 06. Banco de Dados Relacional com MySQL
   - Modelagem de banco de dados
   - Basic Select Query, SELECT Statement, WHERE Clause
