@@ -86,4 +86,7 @@ Popovers, Scrollspy, Spinners
   - Polimorfismo
   - Abstração
   - Encapsulamento
+  - Funções Lambda
+  - Annotations
+  - Generics
   
