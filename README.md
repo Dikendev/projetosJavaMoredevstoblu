@@ -89,4 +89,7 @@ Popovers, Scrollspy, Spinners
   - Funções Lambda
   - Annotations
   - Generics
-  
+ 08. Firebase
+  - Add Firebase to JavaScript project
+  - Firebase Authentication
+  - Firebase Analytics
